@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 60%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+footer {
+  background-color: #333;
+  color: #ccc;
+  margin-top: 16px;
+  padding: 16px;
+}
+
+header {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  padding: 0px 0px 5px 16px;
+}
+
+header .header__pageTitle {
+  color: #333;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+header a {
+  color: #777;
+  text-decoration: none;
+  margin-right: 55px;
+}
+
+.body__pageTitle {
+  font-size: 60px;
+  margin: 60px 0px 30px 16px;
+}
+
+/* Content syles */
+/* Home */
+form {
+  display: flex;
+  align-content: center;
+}
+
+input {
+  width: 70%;
+  height: 55px;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #aaa0;
+  box-shadow: 0px 5px 5px -5px #777;
+}
+
+button {
+  width: 55px;
+  height: 55px;
+  transform: translateX(-6px);
+  border: 1px 1px 1px 0px solid #777;
+  background-color: #fff;
+}
+
+button > img {
+  width: 43px;
+  color: #777;
+}
+
+p {
+  margin-top: 48px;
+  font-size: 21px;
+}
+ul {
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  color: #333;
+}

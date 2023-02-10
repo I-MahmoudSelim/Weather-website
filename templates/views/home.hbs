@@ -1,0 +1,27 @@
+{{>header}}
+<form action="" method="get">
+    <input type="search" name="city" id="city" placeholder="Where do you care about about weather?">
+    <button id="formBtn" type="submit"><img src="./img/Search_icon.png" alt=""></button>
+</form>
+<p id="display">
+
+    <!-- this is the code if i use handelbar built in expressions  -->
+    <!-- {{#if desc}}
+    It is {{desc}} in {{location}} at {{time}}. <br>It is {{tempertaure}} &#xb0;c but it feels like
+    {{feelslike}} &#xb0;c.
+    {{else}}
+    {{#if msg}}
+    {{msg}}
+    {{/if}}
+    {{/if}} -->
+</p>
+<ul id="cities">
+
+    <!-- this is the code if i use handelbar built in expressions  -->
+    <!-- {{#each cities}}
+    <li><a class="cities"
+            href="`http://localhost:3000/weatherGS?lat={{this.lat}}&lon={{this.lon}}&name={{this.name}}">{{this.name}}</a>
+    </li>
+    {{/each}} -->
+</ul>
+{{>footer}}
